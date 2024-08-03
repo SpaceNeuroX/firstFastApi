@@ -1,5 +1,8 @@
 fastapi 
 uvicorn
+<<<<<<< HEAD
 Pydantic
 SQLAlchemy
 psycopg2-binary
+=======
+>>>>>>> ba89de0a22ba46c3bf7fa481f904e943c1469e24
