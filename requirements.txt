@@ -1,2 +1,5 @@
-pip install fastapi uvicorn
-pip install recommon
+fastapi 
+uvicorn
+Pydantic
+SQLAlchemy
+psycopg2-binary
