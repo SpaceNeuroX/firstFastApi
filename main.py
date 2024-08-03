@@ -63,4 +63,4 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {"message": "Hello World"}
->>>>>>> ba89de0a22ba46c3bf7fa481f904e943c1469e24
+
