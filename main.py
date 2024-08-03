@@ -8,7 +8,7 @@ from uuid import uuid4
 app = FastAPI()
 
 # Настройка базы данных PostgreSQL
-DATABASE_URL = "postgresql://test_u5yo_user:eoyqcsNrBojkuiYuSpZHpzwBQu5heeCt@localhost/test_u5yo"
+DATABASE_URL = "postgresql://test_u5yo_user:eoyqcsNrBojkuiYuSpZHpzwBQu5heeCt@dpg-cqn06j5ds78s7395hkhg-a/test_u5yo"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
